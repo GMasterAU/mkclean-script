@@ -1,7 +1,7 @@
 # mkclean-script
 
 
-I put this script together to help with processing mkv files via mkclean for enhanced file optimisation for those who are not very comfortable running/writing scripts. I also wrote it to catch errors that can occur with unicode characters that are not supported yet by mkclean 0.9.0 (e.g. é). There may be an update to mkclean in the future but at this point it is easier to catch the potential errors in a separate folder. The script also deletes all files of type *.bif, *.jpg, *.png, *.nfo (with exception of .nfo files about the tvshow or season the folder mkv file is in. This is aimed at emby folder structure). The script then checks if there are *.mp4 or *.m4v files and converts them to *.mkv.
+I put this script together to help with processing mkv files via mkclean for enhanced file optimisation for those who are not very comfortable running/writing scripts. I also wrote it to catch errors that can occur with unicode characters that are not supported yet by mkclean 0.9.0 (e.g. é). There may be an update to mkclean in the future but at this point it is easier to catch the potential errors in a separate folder. The script also deletes all files of type *.bif, *.jpg, *.png, *.nfo (with exception of .nfo files about the tvshow or season the folder mkv file is in. This is aimed at emby folder structure). The script then checks if there are *.mp4 or *.m4v files and converts them to *.mkv. As a final step, the script also cleans the mkv file's meta data (title, date, set track 2 to default).
 
 Software is distributed ASIS.                                                         
 Raise an issue if you find a bug and I will do my best to fix it.                     
