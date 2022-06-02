@@ -31,11 +31,11 @@ Raise an issue if you find a bug and I will do my best to fix it.
 ```
 
 5. place the script insdie the parent folder. In this example 'test'
-6. update the location of where the script resides inside the script (l. 21)
+6. update the location of where the script resides inside the script (l. 21), by opening it with an editor such as TextEdit or BBEdit.
 7. go to your terminal window and type
 ```bash ```, followed by the path to the file (Note: you can also drag the script file into the terminal window and it will grab the path automatically)
 8. press ```enter```
 
-The script will now run. If it can not process a file, it will put it into the error folder and rename it. It will also generate a log file to check later.
+The script will now attempt to run. If it can not process a file, it will put it into the error folder and rename it. It will also generate a log file to check later.
 
 Please check the script on your system with a test folder and files first.
